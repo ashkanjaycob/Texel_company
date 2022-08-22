@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: alibaba;
+    src: url(../fonts/alibaba-regular.woff2-5d2979c4.woff2);
+}
+@font-face {
+    font-family: alibababold;
+    src: url(../fonts/alibaba-bold.woff2-bbb24413.woff2);
+}
+.container{
+    width: 920px;
+    margin: 0 auto;
+}
+.container::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.w-50 {
+    width: 50%;
+}
+.pull-right {
+    float: right;
+}
+.pull-left {
+    float: left;
+}
+.w-33{
+    width: 33.33%;
+}
+.alibaba{
+    font-family: alibaba , sans serif ;
+}
+.alibababold{
+    font-family: alibababold , sans serif ;
+}
+.rtl {
+    direction: rtl;
+}
+.wht {
+    color: #ffffff;
+}
+.prp {
+    color: purple; 
+}
+.blu{
+    color: darkturquoise;
+}
+
+.btn {
+    background-color: purple;
+    color: #ffffff;
+    padding: 8px 16px;
+    font-size: 1.2rem;
+    direction: rtl;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-family: alibaba;
+    cursor: pointer;
+    transition: 0.3s ;
+}
+.btn:hover{
+    background-color: #ffffff;
+    color: purple;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+
+/* HEADER CSS CODES */
+        header {
+            background: radial-gradient(circle at 12.8% 28%, rgb(206, 155, 243) 0%, rgb(142, 229, 247) 90%);
+        }
+.navbar {
+    padding: 30px 0;
+}
+.rightnav ul {
+    list-style-type: none;
+}
+.rightnav ul li {
+    float: right;
+    padding: 8px 14px 0;
+}
+.rightnav ul li a {
+    font-family: alibababold , serif;
+    text-decoration: none;
+    color: purple;
+}
+.rightnav ul li :hover {
+    transition: 0.3s ;
+    color: #ffffff;
+}
+.leftnav img {
+    float: left;
+    width: 30%;
+}
+.content {
+    padding: 110px 0;
+}
+.content::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.rightcontent{
+    padding-left: 30px;
+}
+.rightcontent img {
+    width: 100%;
+}
+.leftcontent {
+    padding: 70px 50px 0 0;
+}
+.leftcontent h1 {
+    font-size: 2.2rem;
+}
+.leftcontent p {
+    color: rgba(128, 0, 128, 0.589);
+    font-size: 1.1rem;
+    padding-bottom: 30px;
+}
+
+/* floating icons in header css codes  */
+.floating-icons{
+    position: relative;
+}
+.floating-icons img {
+    width: 40px;
+    position: absolute;
+}
+#ico4{
+    top: 20px;
+    left: 20px;
+    animation: iconic 1s 0.2s infinite ease-in-out alternate-reverse;
+    animation-fill-mode: backwards;
+}
+#ico2{
+    top: 290px;
+    left: 90px;
+    animation: iconic 1.5s 0.4s infinite ease-in-out alternate-reverse;
+    animation-fill-mode: backwards;
+}
+#ico3{
+    top: 120px;
+    left: 545px;
+    animation: iconic 1s 0.6s infinite ease-in-out alternate-reverse;
+    animation-fill-mode: backwards;
+}
+#ico1{
+    top: 10px;
+    left: 950px;
+    animation: iconic 1s 0.8s infinite ease-in-out alternate-reverse;
+    animation-fill-mode: backwards;
+}
+#ico5{
+    top: 400px;
+    left: 850px;
+    animation: iconic 1s 1s infinite ease-in-out alternate-reverse;
+    animation-fill-mode: backwards;
+}
+#ico5{
+    top: 400px;
+    left: 850px;
+    animation: iconic 2s 1s infinite ease-in-out alternate-reverse;
+    animation-fill-mode: backwards;
+}
+#ico6{
+    left: 410px;
+    animation: iconic 1s 1s infinite ease-in-out alternate-reverse;
+    animation-fill-mode: backwards;
+}
+#ico7{
+
+    top: 375px;
+        animation: iconic 1.5s 1s infinite ease-in-out alternate-reverse;
+    animation-fill-mode: backwards;
+}
+
+@keyframes iconic {
+    from{
+        transform: translatex(0);
+    }
+    to{
+        transform: translatex(24px);
+    }
+}
+
+/* SECTION 1 CSS CODES  */
+#section-one {
+    background: radial-gradient(circle at 10% 20%, rgb(186, 190, 245) 0%, rgb(192, 192, 245) 33.1%, rgb(218, 203, 246) 90%);
+}
+#section-one h2 {
+    padding: 90px 0;
+    text-align: center;
+    color: #5B4B8A;
+}
+#section-one i {
+    background-color: aliceblue;
+    border: none;
+    outline: none;
+    border-radius:4px;
+    font-size: 3rem;
+}
+.sec-1-left , .sec-1-center , .sec-1-right{
+    text-align: center;
+    font-family: alibaba;
+}
