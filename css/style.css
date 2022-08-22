@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root {
+--melowpueple:#4C3575;
+}
+
 @font-face {
     font-family: alibaba;
     src: url(../fonts/alibaba-regular.woff2-5d2979c4.woff2);
@@ -196,18 +200,29 @@
     background: radial-gradient(circle at 10% 20%, rgb(186, 190, 245) 0%, rgb(192, 192, 245) 33.1%, rgb(218, 203, 246) 90%);
 }
 #section-one h2 {
-    padding: 90px 0;
+    padding: 90px 0 40px;
     text-align: center;
     color: #5B4B8A;
 }
 #section-one i {
-    background-color: aliceblue;
+    background-color: #5b4b8a4b;
     border: none;
     outline: none;
-    border-radius:4px;
+    border-radius:10px;
+    padding: 8px;
     font-size: 3rem;
+}
+#section-one h3 {
+    padding: 10px 0;
+    color: #7858A6;
+}
+#section-one p {
+    padding: 6px;
+    font-size: 0.8rem;
+    color: var(--melowpueple);
 }
 .sec-1-left , .sec-1-center , .sec-1-right{
     text-align: center;
     font-family: alibaba;
+    padding: 30px 0 60px;
 }
